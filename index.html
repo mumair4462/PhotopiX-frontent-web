@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PhotopiX - Photo Gallery</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="all.css">
+
+  <style>
+    
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <a href="">Photo<span>pi</span>X</a>
+      </div>
+
+      <ul class="manu">
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <div class="icons">
+        <label for="searchbox"><i class="fa-solid fa-magnifying-glass" id="search_btn"></i></label>
+        <!--  -->
+        <!-- <i class="fa-solid fa-user" id="search_btn"></i> -->
+        <button type="button" id="login_btn">Login</button>
+      </div>
+
+    </nav>
+
+    <!-- ========================== Mobile ================================ -->
+
+    <nav class="navbar_mobile">
+      <span class="show">&#9776;</span>
+      <span class="hide">&times;</span>
+
+      <div class="title">
+        <div class="logo">
+          <a href="">Photo<span>pi</span>X</a>
+        </div>
+      </div>
+      <div class="mb_list">
+        <ul>
+          <li><a href="#" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contact">contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+
+    <section>
+      <div class="header_info">
+        <!-- <i class="fa-solid fa-camera-security"></i> -->
+        <!-- <i class="fa-solid fa-circle-camera"></i> -->
+        <i class="fa-solid fa-camera"></i>
+        <h1>Capturing the moments that captivate your heart.</h1>
+        <div class="search_container">
+          <input type="search" id="searchbox" placeholder="Search Here....">
+          <button>Search</button>
+          <!-- <i class="fa-solid fa-magnifying-glass" id="search_btn"></i> -->
+        </div>
+      </div>
+  </header>
+
+
+  <main>
+    <a name="gallery"></a>
+    <section class="filter-gallery">
+      <div class="filter-manu">
+        <ul>
+          <li class="actived all">All</li>
+          <li class="nature">Nature</li>
+          <li class="faishon">Faishon</li>
+          <li class="wedding">Wedding</li>
+        </ul>
+      </div>
+      <div class="filter-item"></div>
+    
+    
+      <a name="about"></a>
+    </section>
+    
+    <section class="mamber">
+      <div class="member-info">
+        <h2> Our <span>Informations</span></h2>
+        <p>What our member says</p>
+      </div>
+      <div class="member-detail">
+        <img src="img/member.png" alt="img" class="mimg">
+        <p>From Rajasthan,doing gym is good for healthy life. it helps our body to fit. it release stress from our
+          mind.From Rajasthan,doing gym is good for healthy life. it helps our body to fit. it release stress from our
+          mind.</p>
+        <h2>* Maria Sharapova</h2>
+
+        <img src="img/icon1.png" alt="" class="simg">
+        <img src="img/icon2.png" alt="" class="simg">
+        <img src="img/icon3.png" alt="" class="simg">
+        <img src="img/icon4.png" alt="" class="simg">
+      </div>
+
+      <div class="m-img">
+        <img src="img/s1.jpg" alt="">
+        <img src="img/s2.jpg" alt="">
+        <img src="img/s3.jpg" alt="">
+        <img src="img/s4.jpg" alt="">
+        <img src="img/s5.jpg" alt="">
+      </div>
+    </section>
+
+  </main>
+   
+  
+  <footer>
+    <a name="contact"></a>
+    <div class="f-items">
+      <div class="fc">
+        <h1>Contact Us</h1>
+        <p>Hi! My name is <abbr title="Email: umairsaeed4462@gmail.com"> </b> <a href="mail: umairsaeed@gmail.com">Umair
+              Saeed</a> </abbr></p>
+
+      </div>
+      <div>
+        <h1>Useful links</h1>
+        <p><a href="#">Home</a></p>
+        <p><a href="#about">About</a></p>
+        <p><a href="#gallery">Gallery</a></p>
+        <p><a href="#contact">Contact</a></p>
+      </div>
+      <div>
+        <h1>Details</h1>
+        <p>Photographers</p>
+        <p>Gallery</p>
+        <p>About</p>
+        <p>Pricing plans</p>
+      </div>
+
+      <div>
+        <h1>Help &amp; Support</h1>
+        <p>Privacy policy</p>
+        <p>Term &amp; conditions</p>
+        <p>Technical support</p>
+        <p>Customer care</p>
+
+      </div>
+    </div>
+  </footer>
+
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
